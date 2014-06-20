@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B78E3519545FC40092CF9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B78E3419545FC40092CF9F /* Foundation.framework */; };
+		49B78E3719545FC40092CF9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B78E3619545FC40092CF9F /* CoreGraphics.framework */; };
+		49B78E3919545FC40092CF9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B78E3819545FC40092CF9F /* UIKit.framework */; };
+		49B78E3F19545FC40092CF9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B78E3D19545FC40092CF9F /* InfoPlist.strings */; };
+		49B78E4119545FC40092CF9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B78E4019545FC40092CF9F /* main.m */; };
+		49B78E4519545FC40092CF9F /* MemoryUseMaxTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B78E4419545FC40092CF9F /* MemoryUseMaxTestAppDelegate.m */; };
+		49B78E4819545FC40092CF9F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B78E4619545FC40092CF9F /* Main_iPhone.storyboard */; };
+		49B78E4B19545FC40092CF9F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B78E4919545FC40092CF9F /* Main_iPad.storyboard */; };
+		49B78E4E19545FC40092CF9F /* MemoryUseMaxTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B78E4D19545FC40092CF9F /* MemoryUseMaxTestViewController.m */; };
+		49B78E5019545FC40092CF9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B78E4F19545FC40092CF9F /* Images.xcassets */; };
+		49B78E5719545FC40092CF9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B78E5619545FC40092CF9F /* XCTest.framework */; };
+		49B78E5819545FC40092CF9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B78E3419545FC40092CF9F /* Foundation.framework */; };
+		49B78E5919545FC40092CF9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B78E3819545FC40092CF9F /* UIKit.framework */; };
+		49B78E6119545FC40092CF9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B78E5F19545FC40092CF9F /* InfoPlist.strings */; };
+		49B78E6319545FC40092CF9F /* MemoryUseMaxTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B78E6219545FC40092CF9F /* MemoryUseMaxTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49B78E5A19545FC40092CF9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B78E2919545FC40092CF9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B78E3019545FC40092CF9F;
+			remoteInfo = MemoryUseMaxTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49B78E3119545FC40092CF9F /* MemoryUseMaxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryUseMaxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B78E3419545FC40092CF9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49B78E3619545FC40092CF9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49B78E3819545FC40092CF9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49B78E3C19545FC40092CF9F /* MemoryUseMaxTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoryUseMaxTest-Info.plist"; sourceTree = "<group>"; };
+		49B78E3E19545FC40092CF9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49B78E4019545FC40092CF9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49B78E4219545FC40092CF9F /* MemoryUseMaxTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoryUseMaxTest-Prefix.pch"; sourceTree = "<group>"; };
+		49B78E4319545FC40092CF9F /* MemoryUseMaxTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryUseMaxTestAppDelegate.h; sourceTree = "<group>"; };
+		49B78E4419545FC40092CF9F /* MemoryUseMaxTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryUseMaxTestAppDelegate.m; sourceTree = "<group>"; };
+		49B78E4719545FC40092CF9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		49B78E4A19545FC40092CF9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		49B78E4C19545FC40092CF9F /* MemoryUseMaxTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryUseMaxTestViewController.h; sourceTree = "<group>"; };
+		49B78E4D19545FC40092CF9F /* MemoryUseMaxTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryUseMaxTestViewController.m; sourceTree = "<group>"; };
+		49B78E4F19545FC40092CF9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49B78E5519545FC40092CF9F /* MemoryUseMaxTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryUseMaxTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B78E5619545FC40092CF9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49B78E5E19545FC40092CF9F /* MemoryUseMaxTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoryUseMaxTestTests-Info.plist"; sourceTree = "<group>"; };
+		49B78E6019545FC40092CF9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49B78E6219545FC40092CF9F /* MemoryUseMaxTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryUseMaxTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B78E2E19545FC40092CF9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B78E3719545FC40092CF9F /* CoreGraphics.framework in Frameworks */,
+				49B78E3919545FC40092CF9F /* UIKit.framework in Frameworks */,
+				49B78E3519545FC40092CF9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B78E5219545FC40092CF9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B78E5719545FC40092CF9F /* XCTest.framework in Frameworks */,
+				49B78E5919545FC40092CF9F /* UIKit.framework in Frameworks */,
+				49B78E5819545FC40092CF9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B78E2819545FC40092CF9F = {
+			isa = PBXGroup;
+			children = (
+				49B78E3A19545FC40092CF9F /* MemoryUseMaxTest */,
+				49B78E5C19545FC40092CF9F /* MemoryUseMaxTestTests */,
+				49B78E3319545FC40092CF9F /* Frameworks */,
+				49B78E3219545FC40092CF9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B78E3219545FC40092CF9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B78E3119545FC40092CF9F /* MemoryUseMaxTest.app */,
+				49B78E5519545FC40092CF9F /* MemoryUseMaxTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B78E3319545FC40092CF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B78E3419545FC40092CF9F /* Foundation.framework */,
+				49B78E3619545FC40092CF9F /* CoreGraphics.framework */,
+				49B78E3819545FC40092CF9F /* UIKit.framework */,
+				49B78E5619545FC40092CF9F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49B78E3A19545FC40092CF9F /* MemoryUseMaxTest */ = {
+			isa = PBXGroup;
+			children = (
+				49B78E4319545FC40092CF9F /* MemoryUseMaxTestAppDelegate.h */,
+				49B78E4419545FC40092CF9F /* MemoryUseMaxTestAppDelegate.m */,
+				49B78E4619545FC40092CF9F /* Main_iPhone.storyboard */,
+				49B78E4919545FC40092CF9F /* Main_iPad.storyboard */,
+				49B78E4C19545FC40092CF9F /* MemoryUseMaxTestViewController.h */,
+				49B78E4D19545FC40092CF9F /* MemoryUseMaxTestViewController.m */,
+				49B78E4F19545FC40092CF9F /* Images.xcassets */,
+				49B78E3B19545FC40092CF9F /* Supporting Files */,
+			);
+			path = MemoryUseMaxTest;
+			sourceTree = "<group>";
+		};
+		49B78E3B19545FC40092CF9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B78E3C19545FC40092CF9F /* MemoryUseMaxTest-Info.plist */,
+				49B78E3D19545FC40092CF9F /* InfoPlist.strings */,
+				49B78E4019545FC40092CF9F /* main.m */,
+				49B78E4219545FC40092CF9F /* MemoryUseMaxTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49B78E5C19545FC40092CF9F /* MemoryUseMaxTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				49B78E6219545FC40092CF9F /* MemoryUseMaxTestTests.m */,
+				49B78E5D19545FC40092CF9F /* Supporting Files */,
+			);
+			path = MemoryUseMaxTestTests;
+			sourceTree = "<group>";
+		};
+		49B78E5D19545FC40092CF9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B78E5E19545FC40092CF9F /* MemoryUseMaxTestTests-Info.plist */,
+				49B78E5F19545FC40092CF9F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B78E3019545FC40092CF9F /* MemoryUseMaxTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B78E6619545FC40092CF9F /* Build configuration list for PBXNativeTarget "MemoryUseMaxTest" */;
+			buildPhases = (
+				49B78E2D19545FC40092CF9F /* Sources */,
+				49B78E2E19545FC40092CF9F /* Frameworks */,
+				49B78E2F19545FC40092CF9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryUseMaxTest;
+			productName = MemoryUseMaxTest;
+			productReference = 49B78E3119545FC40092CF9F /* MemoryUseMaxTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B78E5419545FC40092CF9F /* MemoryUseMaxTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B78E6919545FC40092CF9F /* Build configuration list for PBXNativeTarget "MemoryUseMaxTestTests" */;
+			buildPhases = (
+				49B78E5119545FC40092CF9F /* Sources */,
+				49B78E5219545FC40092CF9F /* Frameworks */,
+				49B78E5319545FC40092CF9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B78E5B19545FC40092CF9F /* PBXTargetDependency */,
+			);
+			name = MemoryUseMaxTestTests;
+			productName = MemoryUseMaxTestTests;
+			productReference = 49B78E5519545FC40092CF9F /* MemoryUseMaxTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B78E2919545FC40092CF9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MemoryUseMaxTest;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = alibaba;
+				TargetAttributes = {
+					49B78E5419545FC40092CF9F = {
+						TestTargetID = 49B78E3019545FC40092CF9F;
+					};
+				};
+			};
+			buildConfigurationList = 49B78E2C19545FC40092CF9F /* Build configuration list for PBXProject "MemoryUseMaxTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49B78E2819545FC40092CF9F;
+			productRefGroup = 49B78E3219545FC40092CF9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B78E3019545FC40092CF9F /* MemoryUseMaxTest */,
+				49B78E5419545FC40092CF9F /* MemoryUseMaxTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B78E2F19545FC40092CF9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B78E4B19545FC40092CF9F /* Main_iPad.storyboard in Resources */,
+				49B78E5019545FC40092CF9F /* Images.xcassets in Resources */,
+				49B78E4819545FC40092CF9F /* Main_iPhone.storyboard in Resources */,
+				49B78E3F19545FC40092CF9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B78E5319545FC40092CF9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B78E6119545FC40092CF9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B78E2D19545FC40092CF9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B78E4E19545FC40092CF9F /* MemoryUseMaxTestViewController.m in Sources */,
+				49B78E4519545FC40092CF9F /* MemoryUseMaxTestAppDelegate.m in Sources */,
+				49B78E4119545FC40092CF9F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B78E5119545FC40092CF9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B78E6319545FC40092CF9F /* MemoryUseMaxTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49B78E5B19545FC40092CF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B78E3019545FC40092CF9F /* MemoryUseMaxTest */;
+			targetProxy = 49B78E5A19545FC40092CF9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49B78E3D19545FC40092CF9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B78E3E19545FC40092CF9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49B78E4619545FC40092CF9F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B78E4719545FC40092CF9F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		49B78E4919545FC40092CF9F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B78E4A19545FC40092CF9F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		49B78E5F19545FC40092CF9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B78E6019545FC40092CF9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49B78E6419545FC40092CF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B78E6519545FC40092CF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B78E6719545FC40092CF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryUseMaxTest/MemoryUseMaxTest-Prefix.pch";
+				INFOPLIST_FILE = "MemoryUseMaxTest/MemoryUseMaxTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49B78E6819545FC40092CF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryUseMaxTest/MemoryUseMaxTest-Prefix.pch";
+				INFOPLIST_FILE = "MemoryUseMaxTest/MemoryUseMaxTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49B78E6A19545FC40092CF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MemoryUseMaxTest.app/MemoryUseMaxTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryUseMaxTest/MemoryUseMaxTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MemoryUseMaxTestTests/MemoryUseMaxTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49B78E6B19545FC40092CF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MemoryUseMaxTest.app/MemoryUseMaxTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryUseMaxTest/MemoryUseMaxTest-Prefix.pch";
+				INFOPLIST_FILE = "MemoryUseMaxTestTests/MemoryUseMaxTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B78E2C19545FC40092CF9F /* Build configuration list for PBXProject "MemoryUseMaxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B78E6419545FC40092CF9F /* Debug */,
+				49B78E6519545FC40092CF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B78E6619545FC40092CF9F /* Build configuration list for PBXNativeTarget "MemoryUseMaxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B78E6719545FC40092CF9F /* Debug */,
+				49B78E6819545FC40092CF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49B78E6919545FC40092CF9F /* Build configuration list for PBXNativeTarget "MemoryUseMaxTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B78E6A19545FC40092CF9F /* Debug */,
+				49B78E6B19545FC40092CF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B78E2919545FC40092CF9F /* Project object */;
+}
